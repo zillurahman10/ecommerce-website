@@ -1,67 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
-    // const handleHamburger = () => {
-    //     const container = document.getElementById("container");
-    //     container.classNameList.toggle("active");
-    // }
     return (
-        <body>
-            <div id="container">
-                <div className="navbar">
-                    <div className="menu">
-                        <h3 className="logo">Brand<span>Name</span></h3>
-                        <div id="hamburger-menu">
-                            <div className="bar"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="main-container">
-                    <div className="main">
-                        <header>
-                            <div className="overlay">
-                                <div className="inner">
-                                    <h2 className="title">Future is here</h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Laudantium illum tenetur consequatur veritatis?
-                                    </p>
-                                    <button className="btn">Read more</button>
-                                </div>
-                            </div>
-                        </header>
-                    </div>
-
-                    <div className="shadow one"></div>
-                    <div className="shadow two"></div>
-                </div>
-
-                <div className="links">
-                    <ul>
-                        {/* <li>
-                            <a href="" style="--i: 0.05s;">Home</a>
-                        </li>
-                        <li>
-                            <a href="" style="--i: 0.1s;">Services</a>
-                        </li>
-                        <li>
-                            <a href="" style="--i: 0.15s;">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="" style="--i: 0.2s;">Testimonials</a>
-                        </li>
-                        <li>
-                            <a href="#" style="--i: 0.25s;">About</a>
-                        </li>
-                        <li>
-                            <a href="#" style="--i: 0.3s;">Contact</a>
-                        </li> */}
-                    </ul>
-                </div>
+        <div className='d-flex justify-content-between container mt-3'>
+            <div className=''>
+                <Link className='text-decoration-none text-dark' to='/'>
+                    <h3>LOGO</h3>
+                </Link>
             </div>
-        </body>
+            <div className='links-section'>
+                <Link className='text-decoration-none' to='/'>Home</Link>
+                <Link className='text-decoration-none' to='/about'>About</Link>
+                <Link className='text-decoration-none' to="help">Help</Link>
+                <Link className='text-decoration-none' to='/login'>Login</Link>
+            </div>
+        </div>
     );
 };
 

@@ -1,0 +1,13 @@
+.links-section a {
+    font-weight: 700;
+    padding: 13px;
+    color: black;
+}
+
+.links-section a:hover {
+    transition: 0.5s;
+    background-color: lightcoral;
+    padding: 8px 13px;
+    border-radius: 10px;
+    color: white;
+}
