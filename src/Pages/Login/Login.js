@@ -89,7 +89,7 @@ const Login = () => {
                     <p className='ms-5 mt-3'>Forgot password? <button onClick={passwordReset} className='bg-light text-primary' style={{ border: 'none' }}>Reset password</button></p>
                     <p className='text-danger'>{errorElement}</p>
                     <br />
-                    <input className='submit-inputs my-2 d-flex justify-content-center' type="submit" value="Login" />
+                    <input className='submit-inputs' type="submit" value="Login" />
                 </form>
                 <p className='mt-2 d-flex justify-content-center'>New in DOC-FINE? <Link className='text-decoration-none ms-2 ' to="/signup">Create a new account</Link></p>
                 <div className='d-flex align-items-center justify-content-center'>

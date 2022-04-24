@@ -1,7 +1,8 @@
 .submit-inputs {
     width: 350px;
     height: 50px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
     border: none;
     border: 1px solid gray;
     border-radius: 25px;
