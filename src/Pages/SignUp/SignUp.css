@@ -1,0 +1,27 @@
+.inputs {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 400px;
+    margin: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.submit {
+    border: none;
+    background-color: white;
+    border: 3px solid lightslategray;
+    padding: 10px 0px;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.submit:hover {
+    transition: 0.5s;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+}
